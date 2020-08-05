@@ -1,0 +1,17 @@
+@article{Holcomb:FERNS2009,
+  abstract_url = {http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4674345&isnumber=4358213},
+  author = {Holcomb, Daniel E. and Burleson, Wayne P. and Fu, Kevin},
+  date-modified = {2009-07-23 10:28:59 -0400},
+  journal = {IEEE Transactions on Computers},
+  keywords = {Security, RFID, Crypto, Journal Paper},
+  month = sep,
+  monthnum = 9,
+  number = {9},
+  pages = {1198--1210},
+  venue = {IEEE Transactions on Computers},
+  sponsors = {NSF CNS-0627529},
+  title = {Power-up {SRAM} State as an Identifying Fingerprint and Source of True Random Numbers},
+  url = {https://spqr.eecs.umich.edu/papers/holcomb-FERNS-IEEE-Computers.pdf},
+  volume = {58},
+  year = 2009
+}

@@ -1,0 +1,45 @@
+@inproceedings{salajegheh-fast2011,
+  address = {San Jose, CA},
+  author = {Mastooreh Salajegheh and Yue Wang and Kevin Fu and Anxiao (Andrew) Jiang and Erik Learned-Miller},
+  booktitle = {Proceedings of the 9th USENIX Conference on File and Storage Technologies (FAST '11)},
+  conference_url = {http://www.usenix.org/events/fast11/},
+  ieee_spectrum_url = {http://spectrum.ieee.org/semiconductors/devices/flash-memory-for-dull-devices},
+  eweek_url = {http://www.eweek.com/c/a/Data-Storage/Researchers-Store-Data-in-Flash-Memory-Under-Low-Voltage-Conditions-711253/},
+  keywords = {Probabilistic Storage, Power Management},
+  month = feb,
+  monthnum = 2,
+  sponsors = {Sloan Research Fellowship, NSF Prime CNS-0627476, NSF CNS-0627529, NSF CNS-0845874, NSF CNS-0923313},
+  title = {Exploiting Half-Wits: Smarter Storage for Low-Power Devices},
+  url = {https://spqr.eecs.umich.edu/papers/salajegheh-halfwits-FAST11.pdf},
+  slides_url = {http://static.usenix.org/events/fast11/tech/slides/salajegheh.pdf},
+  webcast_url = {http://static.usenix.org/multimedia/fast11salajegheh},
+  licensing_url = {http://web.eecs.umich.edu/~kevinfu/IP/SMASH.html},
+  year = 2011,
+  venue = {FAST (USENIX Conference on File and Storage Technologies)},
+  abstract = {This work analyzes the stochastic behavior of
+                  writing to embedded flash memory at voltages lower
+                  than recommended by a microcontroller's
+                  specifications to reduce energy consumption.  Flash
+                  memory integrated within a microcontroller typically
+                  requires the entire chip to operate on common supply
+                  voltage almost double what the CPU portion requires.
+                  Our approach tolerates a lower supply voltage so
+                  that the CPU may operate in a more energy efficient
+                  manner.  Energy efficient coding algorithms then
+                  cope with flash memory that behaves unpredictably.
+                  Our software-only coding algorithms (in-place
+                  writes, multiple-place writes, RS-Berger codes)
+                  enable reliable storage at low voltages on
+                  unmodified hardware by exploiting the electrically
+                  cumulative nature of half-written data in write-once
+                  bits.  For a sensor monitoring application using the
+                  MSP430, coding with in-place writes reduces the
+                  overall energy consumption by 34\%.  In-place writes
+                  are competitive when the time spent on computation
+                  is at least four times greater than the time spent
+                  on writes to flash memory.  Our evaluation shows
+                  that tightly maintaining the digital abstraction for
+                  storage in embedded flash memory comes at a
+                  significant cost to energy consumption with minimal
+                  gain in reliability.}
+}
