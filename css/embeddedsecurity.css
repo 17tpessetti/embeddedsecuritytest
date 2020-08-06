@@ -23,7 +23,7 @@ html{
 
 
 #workshopmain{
-    margin-top: 30px;
+    margin-top: 50px;
     align-items: center;
     display: grid;
     grid-template-columns: auto;
@@ -75,17 +75,17 @@ html{
     grid-row-gap: 20px;
 }
 
-#gerdes{
+#kornegay{
     grid-row-start: 1;
     grid-row-end: 2;
 }
 
-#kim{
+#petersen{
     grid-row-start: 2;
     grid-row-end: 3;
 }
 
-#kornegay{
+#kocher {
     grid-row-start: 3;
     grid-row-end: 4;
 }
@@ -95,12 +95,12 @@ html{
     grid-row-end: 5;
 }
 
-#petersen{
+#kim{
     grid-row-start: 5;
     grid-row-end: 6;
 }
 
-#burleson{
+#gerdes{
     grid-row-start: 6;
     grid-row-end: 7;
 }
@@ -110,7 +110,7 @@ html{
     grid-row-end: 8;
 }
 
-#kocher {
+#burleson {
     grid-row-start: 8;
     grid-row-end: 9;
 }
@@ -123,7 +123,6 @@ html{
 
 
 @media screen and (min-width: 768px) {
-}
 
 #workshopmain{
     margin-top: 0px;
@@ -153,6 +152,12 @@ html{
     margin-bottom: 0;
 }
 
+#mainheader p{
+    text-align: center;
+}
+
+}
+
 @media screen and (min-width: 1200px) {
 
     #workshopmain p{
@@ -173,25 +178,29 @@ html{
         vertical-align: top;
         }
 
+        #mainheader p{
+            text-align: center;
+        }
+
     #gerdes{
         grid-column-start: 1;
         grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 2;
+        grid-row-start: 6;
+        grid-row-end: 7;
     }
         
     #kim{
         grid-column-start: 1;
         grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
     }
         
     #kornegay{
         grid-column-start: 1;
         grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
     }
         
     #mao{
@@ -204,36 +213,36 @@ html{
     #petersen{
         grid-column-start: 1;
         grid-column-end: 3;
-        grid-row-start: 5;
-        grid-row-end: 6;
+        grid-row-start: 2;
+        grid-row-end: 3;
     }
     
     #burleson{
-        grid-row-start: 6;
-        grid-row-end: 7;
+        grid-row-start: 7;
+        grid-row-end: 8;
         grid-column-start: 1;
         grid-column-end: 2;
     }
         
     #holcomb{
-        grid-row-start: 6;
-        grid-row-end: 7;
+        grid-row-start: 7;
+        grid-row-end: 8;
         grid-column-start: 2;
         grid-column-end: 3;
     }
         
-    #kocher {
-        grid-row-start: 7;
-        grid-row-end: 8;
+    #kocher{
+        grid-row-start: 3;
+        grid-row-end: 4;
         grid-column-start: 1;
-        grid-column-end: 2;
+        grid-column-end: 3;
     }
         
     #sugawara{
-        grid-row-start: 7;
-        grid-row-end: 8;
-        grid-column-start: 2;
-        grid-column-end: 3;
+        grid-row-start: 8;
+        grid-row-end: 9;
+        grid-column-start: 1;
+        grid-column-end: 2;
         padding-bottom: 20px;;
     }
 }
