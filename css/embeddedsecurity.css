@@ -125,7 +125,117 @@ html{
 @media screen and (min-width: 768px) {
 }
 
+#workshopmain{
+    margin-top: 0px;
+}
+
+#mainheader{
+    padding-top: 35px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    }
+    
+#speakerinfo{
+    margin-top: 10px;
+    align-items: center;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-row-gap: 20px;
+    vertical-align: top;
+    }
+
+#workshopmain p{
+    text-align: justify;
+    padding: 30px;
+    margin-bottom: 0;
+}
+
 @media screen and (min-width: 1200px) {
+
+    #workshopmain p{
+        text-align: justify;
+        padding: 40px;
+        margin-bottom: 0;
+    }
+
+    #speakerinfo{
+        margin-top: 10px;
+        align-items: center;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto auto auto auto;
+        grid-row-gap: 20px;
+        vertical-align: top;
+        }
+
+    #gerdes{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+        
+    #kim{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+        
+    #kornegay{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+        
+    #mao{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+        
+    #petersen{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    
+    #burleson{
+        grid-row-start: 6;
+        grid-row-end: 7;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+        
+    #holcomb{
+        grid-row-start: 6;
+        grid-row-end: 7;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+        
+    #kocher {
+        grid-row-start: 7;
+        grid-row-end: 8;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+        
+    #sugawara{
+        grid-row-start: 7;
+        grid-row-end: 8;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        padding-bottom: 20px;;
+    }
 }
 
 
